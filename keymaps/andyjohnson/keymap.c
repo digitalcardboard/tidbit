@@ -50,8 +50,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
            KC_NO, RGB_TOG, KC_NO,
     KC_NO, KC_NO, RGB_MOD, KC_NO,
     KC_NO, KC_NO, RGB_HUI, KC_NO,
-    KC_NO, KC_NO, RGB_SAI, KC_NO,
-    PROG,  PROG,  RGB_VAI, TO(_BASE)
+    KC_NO, KC_NO, RGB_SAI, TO(_BASE),
+    PROG,  PROG,  RGB_VAI, KC_NO
   ),
 };
 
